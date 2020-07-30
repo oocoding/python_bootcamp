@@ -4,7 +4,7 @@
 
 这里我们使用 *Anaconda* 作为开发环境。首先需要去官网下载并安装 [Anaconda](https://www.anaconda.com/products/individual)，然后解压安装。
 
-这里我们需要掌握如何通过 terminal 直接启动 jupyter 启动一个 IDE。
+这里我们需要掌握如何通过 terminal 直接启动 jupyter (一个 IDE)。
 
 ```shell
 cd Desktop
