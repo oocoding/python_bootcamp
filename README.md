@@ -47,9 +47,9 @@ print(typeof(fset))
 
 打开文件的不同模式（mode）
 
-    - "r" This is the default mode. Open a file for reading only.
-    - "w" Open a file for writing, If file does not exist. create it.
-    - "x" create a new file, If file exists, the operation fails
-    - "a" open in append mode. If file does not exist, create it.
-    - "b" open in binary mode.
-    - "+" will open a file for reading and writing. Good for updating
+- "r" This is the default mode. Open a file for reading only.
+- "w" Open a file for writing, If file does not exist. create it.
+- "x" create a new file, If file exists, the operation fails
+- "a" open in append mode. If file does not exist, create it.
+- "b" open in binary mode.
+- "+" will open a file for reading and writing. Good for updating
