@@ -53,3 +53,24 @@ print(typeof(fset))
 - "a" open in append mode. If file does not exist, create it.
 - "b" open in binary mode.
 - "+" will open a file for reading and writing. Good for updating
+
+
+读写 csv 文件
+
+```python3
+import csv
+
+with open("./data.csv", mode="w", newline="") as f:
+    writer = csv.writer(f, delimiter = ",")
+    
+    writer.writerow(["name", "city"])
+    writer.writerow(["tony", "Shenzhen"])
+```
+
+write 
+```python3
+with open("./data.csv", mode="r") as f:
+    reader = csv.reader(f, delimiter=",")
+    for row in reader:
+        print(row)
+```
