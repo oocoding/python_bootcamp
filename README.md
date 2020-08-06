@@ -24,3 +24,32 @@ jupyter notebook
 > 使用 jupyter 快速编辑的技巧
 
 当输入一行代码的时候， *ctrl+e* 切换到行位，然后回车换行。 *shift+回车* 执行代码。
+
+> 如何使用占位符对齐
+
+- str.ljust
+- str.rjust
+- str.center
+
+```python3
+# msg is "A****"
+msg = str.ljust("A", 5, "*")
+```
+
+## week 06
+
+frozenset 是一个不可变的 set。
+
+```python3
+fset = frozenset([1,2,3])
+print(typeof(fset))
+```
+
+打开文件的不同模式（mode）
+
+    - "r" This is the default mode. Open a file for reading only.
+    - "w" Open a file for writing, If file does not exist. create it.
+    - "x" create a new file, If file exists, the operation fails
+    - "a" open in append mode. If file does not exist, create it.
+    - "b" open in binary mode.
+    - "+" will open a file for reading and writing. Good for updating
